@@ -1,0 +1,13 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Farinha",
+    "price": 10
+}
+
+###
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/267de753-5fa1-4e54-bd91-e9095321a691
